@@ -1,6 +1,12 @@
 # LoanFlow — Loan Management Application
-
 A web application developed for the Full Stack Development course at ECE Paris.
+
+## Team Members
+- Alejandra Villegas Alegría
+- Ángel Matías Jácome
+- Francisco Javier Romero
+- Emiliano Fernández Beirana
+
 
 **Live Website:** https://kiki2212.github.io/ECE/
 
