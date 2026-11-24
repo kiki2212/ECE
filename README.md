@@ -6,6 +6,7 @@ A web application developed for the Full Stack Development course at ECE Paris.
 - Ángel Matías Jácome
 - Francisco Javier Romero
 - Emiliano Fernández Beirana
+- Adrian 
 
 
 **Live Website:** https://kiki2212.github.io/ECE/
