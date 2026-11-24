@@ -1,0 +1,165 @@
+
+/* =========================================
+   LOANFLOW - TEC INSPIRED DESIGN
+   ========================================= */
+
+:root {
+    --tec-blue: #0033A0;
+    --tec-turquoise: #58C5D0;
+    --tec-yellow: #E3E829;
+    --tec-orange: #F47B00;
+    --light-bg: #F5F7FC;
+    --dark-text: #172B4D;
+}
+
+/* GENERAL */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--dark-text);
+    background-color: var(--light-bg);
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    background-color: var(--tec-blue) !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white !important;
+}
+
+/* LOGIN AND SIGNUP CARDS */
+
+.card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 51, 160, 0.08);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card h2 {
+    color: var(--tec-blue);
+}
+
+/* FORMS */
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    border: 1px solid #D2DBEB;
+    padding: 11px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--tec-blue);
+    box-shadow: 0 0 0 0.2rem rgba(0, 51, 160, 0.12);
+}
+
+/* BUTTONS */
+
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 10px 18px;
+}
+
+.btn-primary {
+    background-color: var(--tec-blue);
+    border-color: var(--tec-blue);
+}
+
+.btn-primary:hover {
+    background-color: #002477;
+    border-color: #002477;
+}
+
+.btn-success {
+    background-color: var(--tec-turquoise);
+    border-color: var(--tec-turquoise);
+    color: var(--dark-text);
+}
+
+.btn-success:hover {
+    background-color: #3BAAB6;
+    border-color: #3BAAB6;
+    color: var(--dark-text);
+}
+
+.btn-warning {
+    background-color: var(--tec-yellow);
+    border-color: var(--tec-yellow);
+    color: var(--tec-blue);
+}
+
+/* LINKS */
+
+a {
+    color: var(--tec-blue);
+}
+
+a:hover {
+    color: #002477;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background: linear-gradient(
+        120deg,
+        var(--tec-blue),
+        #235CC6
+    );
+    color: white;
+    padding: 90px 20px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+/* HIGHLIGHT ELEMENTS */
+
+.accent-bar {
+    width: 65px;
+    height: 5px;
+    background: var(--tec-yellow);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: var(--tec-blue);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--tec-blue);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
