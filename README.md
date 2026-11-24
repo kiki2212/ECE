@@ -31,7 +31,7 @@ A web application developed for the Full Stack Development course at ECE Paris.
 
 ## Application Preview
 
-![LoanFlow Homepage](screenshot.png)
+![LoanFlow Homepage](screenshot.png.png)
 
 ## Project Note
 This is an educational prototype. Authentication and data storage are browser-based and are not intended for real financial use.
