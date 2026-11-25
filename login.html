@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons (envelope, lock, person) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <!-- Our custom styles (glass effect) -->
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<!-- d-flex + vh-100 + align/justify = center the card on the screen -->
+<body class="d-flex align-items-center justify-content-center min-vh-100">
+
+    <!-- Bootstrap card + our "glass-card" class -->
+    <div class="card glass-card border-0">
+        <div class="card-body text-center">
+
+            <!-- Avatar: Bootstrap icon inside a circle -->
+            <div class="avatar rounded-circle mx-auto mb-5">
+                <i class="bi bi-person-fill"></i>
+            </div>
+
+            <form id="loginForm" class="text-start">
+
+                <!-- Email: Bootstrap input-group (icon + input) -->
+                <div class="input-group line-input mb-5">
+                    <span class="input-group-text">
+                        <i class="bi bi-envelope-fill"></i>
+                    </span>
+                    <input type="email" id="email" class="form-control"
+                           placeholder="Email ID" required>
+                </div>
+
+                <!-- Password -->
+                <div class="input-group line-input mb-4">
+                    <span class="input-group-text">
+                        <i class="bi bi-lock-fill"></i>
+                    </span>
+                    <input type="password" id="password" class="form-control"
+                           placeholder="Password" required>
+                </div>
+
+                <!-- Remember me (Bootstrap form-check) + forgot password -->
+                <div class="d-flex justify-content-between align-items-center options mb-5">
+                    <div class="form-check mb-0">
+                        <input class="form-check-input" type="checkbox" id="remember" checked>
+                        <label class="form-check-label" for="remember">
+                            Remember me
+                        </label>
+                    </div>
+                    <a href="#" class="fst-italic text-decoration-none">
+                        Forgot Password?
+                    </a>
+                </div>
+
+                <!-- Bootstrap button + our gradient -->
+                <button type="submit" class="btn btn-login w-100">
+                    LOGIN
+                </button>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>
